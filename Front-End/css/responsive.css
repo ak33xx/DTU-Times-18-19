@@ -843,7 +843,7 @@
 	/* Portfolio - Items
 	-----------------------------------------------------------------*/
 
-	.portfolio .portfolio-item { width: 33.33333333%; }
+	.portfolio .portfolio-item { width: 50%; }
 
 	/* Portfolio - Items - 2 Columns - No Margin
 	-----------------------------------------------------------------*/
@@ -1158,7 +1158,7 @@
 	.ei-title,
 	.slider-arrow-top-sm,
 	.slider-arrow-bottom-sm { display: block;}
-    
+
     .slider-caption .button {font-size: 12px}
 
 	.slider-caption h2 { margin-bottom: 0 !important; }
@@ -1852,4 +1852,3 @@ only screen and (                min-resolution: 2dppx) and (max-width: 991px) {
 	#logo a.standard-logo { display: inline-block; }
 	#logo a.retina-logo { display: inline-block; }
 }
-
