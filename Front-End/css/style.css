@@ -3815,6 +3815,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-desc { display: none 
 .portfolio.portfolio-3 { margin: 0 -15px -15px 0; }
 
 .portfolio-3 .portfolio-item {
+	width: 33.33333333%;
 	padding: 0 15px 15px 0;
 }
 
@@ -3822,7 +3823,7 @@ body.device-touch.device-xxs .portfolio-notitle .portfolio-desc { display: none 
 /* Portfolio - Sidebar - Items - 3 Columns
 -----------------------------------------------------------------*/
 
-.postcontent .portfolio-3 .portfolio-desc h3 { font-size: 18px; margin-bottom: 15px;}
+.postcontent .portfolio-3 .portfolio-desc h3 { font-size: 18px; }
 
 .postcontent .portfolio-3 .portfolio-desc span { font-size: 13px; }
 
