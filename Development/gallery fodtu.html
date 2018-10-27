@@ -54,7 +54,7 @@
 	
 		<!-- Header
 		============================================= -->
-			<header id="header" class="dark full-header sticky">
+			<header class="dark full-header sticky" id="header">
 
 			<div id="header-wrap">
 
@@ -65,7 +65,7 @@
 					<!-- Logo
 					============================================= -->
 					<div id="logo">
-						<a href="index.html" class="standard-logo" data-dark-logo="images/logo-dark.png"><img src="images/dtulogo.png" alt="DTU Times Logo"></a>
+						<a class="standard-logo" href="index.html" data-dark-logo="images/logo-dark.png"><img alt="DTU Times Logo" src="images/logo-dark.png"></a>
 						
 					</div><!-- #logo end -->
 
@@ -73,7 +73,7 @@
 					============================================= -->
 		<nav id="primary-menu">
 
-						<ul>
+						<ul class="sf-js-enabled" style="touch-action: pan-y;">
 							<li><a href="index.html"><div>Home</div></a>
 							</li>
 								
@@ -104,55 +104,14 @@
 
 			</div>
 
-		</header><!-- #header end -->
+		</header>
 
 		<!-- Slider
 		============================================= -->
-		<section id="slider" class="swiper_wrapper full-screen clearfix" data-loop="true" data-speed="1200" data-autoplay="5000">
+		<section class="swiper_wrapper full-screen clearfix" id="slider" style="height: 375px;" data-autoplay="5000" data-speed="1200" data-loop="true">
 
-			<div class="swiper-container swiper-parent">
-				<div class="swiper-wrapper">
-					<div class="swiper-slide dark" style="background-image: url('images/gallery/fodtu/6.jpg');">
-						<div class="container clearfix">
-							<div class="slider-text">
-								<h3>Fortunate of DTU</h3>
-								<span></span>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide dark" style="background-image: url('images/gallery/fodtu/15.jpg');">
-						<div class="container clearfix">
-							<div class="slider-text">
-								<h3>The Anxious of DTU</h3>
-								<span></span>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide dark" style="background-image: url('images/gallery/fodtu/12.jpg')">
-						<div class="container clearfix">
-							<div class="slider-text">
-								<h3>The Responsible Voter</h3>
-								<span></span>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide dark" style="background-image: url('images/gallery/fodtu/13.jpg');">
-						<div class="container clearfix">
-							<div class="slider-text">
-								<h3>The Fucchas of DSM</h3>
-								<span></span>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide dark" style="background-image: url('images/gallery/fodtu/4.jpg');">
-						<div class="container clearfix">
-							<div class="slider-text">
-								<h3>The Persuasive of DTU</h3>
-								<span></span>
-							</div>
-						</div>
-					</div>
-					<div class="swiper-slide dark" style="background-image: url('images/gallery/fodtu/10.jpg');">
+			<div class="swiper-container swiper-parent swiper-container-horizontal" style="cursor: grab;">
+				<div class="swiper-wrapper" style="transform: translate3d(-6080px, 0px, 0px); transition-duration: 1200ms;"><div class="swiper-slide dark swiper-slide-duplicate" style='width: 1520px; height: 375px; background-image: url("images/gallery/fodtu/10.jpg");' data-swiper-slide-index="5">
 						<div class="container clearfix">
 							<div class="slider-text">
 								<h3>THE INTERNATIONAL STARS</h3>
@@ -160,15 +119,71 @@
 							</div>
 						</div>
 					</div>
-				</div>
+					<div class="swiper-slide dark" style='width: 1520px; height: 375px; background-image: url("images/gallery/fodtu/6.jpg");' data-swiper-slide-index="0">
+						<div class="container clearfix">
+							<div class="slider-text">
+								<h3>Fortunate of DTU</h3>
+								<span></span>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide dark" style='width: 1520px; height: 375px; background-image: url("images/gallery/fodtu/15.jpg");' data-swiper-slide-index="1">
+						<div class="container clearfix">
+							<div class="slider-text">
+								<h3>The Anxious of DTU</h3>
+								<span></span>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide dark swiper-slide-prev" style='width: 1520px; height: 375px; background-image: url("images/gallery/fodtu/12.jpg");' data-swiper-slide-index="2">
+						<div class="container clearfix">
+							<div class="slider-text">
+								<h3>The Responsible Voter</h3>
+								<span></span>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide dark swiper-slide-active" style='width: 1520px; height: 375px; background-image: url("images/gallery/fodtu/13.jpg");' data-swiper-slide-index="3">
+						<div class="container clearfix">
+							<div class="slider-text">
+								<h3>The Fucchas of DSM</h3>
+								<span></span>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide dark swiper-slide-next" style='width: 1520px; height: 375px; background-image: url("images/gallery/fodtu/4.jpg");' data-swiper-slide-index="4">
+						<div class="container clearfix">
+							<div class="slider-text">
+								<h3>The Persuasive of DTU</h3>
+								<span></span>
+							</div>
+						</div>
+					</div>
+					<div class="swiper-slide dark" style='width: 1520px; height: 375px; background-image: url("images/gallery/fodtu/10.jpg");' data-swiper-slide-index="5">
+						<div class="container clearfix">
+							<div class="slider-text">
+								<h3>THE INTERNATIONAL STARS</h3>
+								<span></span>
+							</div>
+						</div>
+					</div>
+				<div class="swiper-slide dark swiper-slide-duplicate" style='width: 1520px; height: 375px; background-image: url("images/gallery/fodtu/6.jpg");' data-swiper-slide-index="0">
+						<div class="container clearfix">
+							<div class="slider-text">
+								<h3>Fortunate of DTU</h3>
+								<span></span>
+							</div>
+						</div>
+					</div></div>
 				<div id="slider-arrow-left"><i class="icon-angle-left"></i></div>
 				<div id="slider-arrow-right"><i class="icon-angle-right"></i></div>
-				<div id="slide-number"><div id="slide-number-current"></div><span></span><div id="slide-number-total"></div></div>
+				<div id="slide-number"><div id="slide-number-current">4</div><span></span><div id="slide-number-total">6</div></div>
 			</div>
 
-			<a href="#" data-scrollto="#content" data-offset="0" class="dark one-page-arrow"><i class="icon-line-grid"></i></a>
+			<a class="dark one-page-arrow" href="#" data-offset="0" data-scrollto="#content"><i class="icon-line-grid"></i></a>
 
-		</section><!-- #Slider End -->
+		</section><!--slider ends here
+		============================================== -->
 
 		<!-- Content
 		============================================= -->
